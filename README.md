@@ -1,3 +1,5 @@
+![CONFUTEGPT](images/confutegpt.png)
+
 # CONFUTEGPT Chrome Extension
 
 CONFUTEGPT is a Chrome extension that acts as your trustworthy information analyst. It uses the power of OpenAI's GPT-3.5 Turbo model to analyze articles from the web and identify fake news and misleading information. The extension provides explanations and confutations for any inaccuracies found in the article, giving it a score from 0 (completely unreliable) to 10 (fact-based). It responds using the same language as the user in the article.
