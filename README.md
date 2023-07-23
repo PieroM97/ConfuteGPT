@@ -43,4 +43,4 @@ I am Pietro Mele, a software developer passionate about creating innovative appl
 
 ## License
 
-The CONFUTEGPT Chrome Extension is open-source software licensed under the MIT License.
+The CONFUTEGPT Chrome Extension is open-source software licensed under the Apache-2.0 license.
