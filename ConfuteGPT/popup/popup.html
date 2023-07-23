@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ConfuteGPT</title>
+  <style>
+    /* Adjust the width as needed */
+    .popup-container {
+      width: 500px; /* Set the desired width */
+      background-color: #f0f0f0; /* Set the background color */
+      padding: 20px; /* Add some padding to the container */
+      display: flex; /* Use flexbox to arrange items horizontally */
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center; /* Center elements horizontally */
+    }
+
+    /* Style the Start Analysis button */
+    #startAnalysisButton {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-bottom: 20px; /* Add margin to separate the button from the title */
+    }
+
+    /* Style the Settings button */
+    #settingsButton {
+      width: 30px;
+      height: 30px;
+      background-image: url("../icons/settings-icon.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      position: absolute;
+      top: 10px;
+      right: 15px;
+    }
+
+    /* Style the validation content */
+    #validationContent {
+      font-size: 18px;
+    }
+  </style>
+  <script src="popup.js"></script>
+  <script src="../scripts/crawler.js"></script>
+  <script src="../scripts/script.js"></script>
+</head>
+<body>
+  <div class="popup-container">
+    <h1>ConfuteGPT</h1>
+    <button id="startAnalysisButton">Start Analysis</button>
+    <button id="settingsButton"></button>
+
+    <div>
+      <div id="validationContainer">
+        <div id="validationContent"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+</html>
